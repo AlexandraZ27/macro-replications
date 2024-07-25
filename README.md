@@ -2,7 +2,11 @@
 
 Replications of macroeconomic papers using Python and MATLAB.
 
-Each folder, named after a paper's authors and year of publication, contains a `.py`, `.m`, or `.mod` file generating its data and graphs. For workering papers, it is the year of replication. The folder should also contain a pdf document summarizing the essential parameters, equations and findings of the model as of the time of replication.
+Each folder, named after a paper's authors and year of publication (year of replication for working papers), contains:
+- a `.py`, `.m`, or `.mod` file generating its graphs
+- a `.pdf` document of the replicated graphs
+- an `examples` directory containing files used in example calls in `README.md`
+- a `.pdf` document summarizing the essential parameters, equations and findings of the model as of the time of replication, explaining the solution algorithm and describing the discrepencies with the replication
 
 
 ## Borovičková, Shimer (2024)

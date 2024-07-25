@@ -11,7 +11,7 @@ Each folder, named after a paper's authors and year of publication, contains a `
 
 - `selction.py`: Run `python3 selection.py` in terminal to replicate "Assortative Matching and Wages: The Role of Selection" (Borovičková & Shimer working paper):
 
-![Borovičková-Shimer-2024](Borovičková-Shimer-2024/Borovičková-Shimer-2024.svg)
+![Borovičková-Shimer-2024](Borovičková-Shimer-2024/examples/Borovičková-Shimer-2024.svg)
 
 To modify paramters, input new values as keyword arguments. Here is a case where we choose a lower $\gamma$, the worker's bargaining power, than the paper such that the average log wage becomes lower.
 
@@ -21,7 +21,7 @@ market = selection.LaborMarket(gamma=0.3)
 market.replicate('lower_bargaining_power.svg')
 ```
 
-![lower_bargaining_power](Borovičková-Shimer-2024/lower_bargaining_power.svg)
+![lower_bargaining_power](Borovičková-Shimer-2024/examples/lower_bargaining_power.svg)
 
 The code also accounts for the changes in the numbers of workers firms so long as the number of workers and firms are consistent. Here is a case where we have fewer firm types than worker types, and the firm contributes more to disparaity in match output $f_{xy}$.
 
@@ -36,9 +36,9 @@ market = selection.LaborMarket(prod_mat = prod_mat, dist_X = dist_X, dist_Y = di
 market.replicate('fewer_firms.svg')
 ```
 
-![fewer_firms](Borovičková-Shimer-2024/fewer_firms.svg)
+![fewer_firms](Borovičková-Shimer-2024/examples/fewer_firms.svg)
 
-- Package requirements can be found in the `requirements.txt` file. 
+- Package requirements can be found in the `requirements.txt` file.
 
 
 

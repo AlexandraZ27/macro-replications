@@ -38,3 +38,7 @@ market.replicate('fewer_firms.svg')
 
 ![fewer_firms](Borovičková-Shimer-2024/fewer_firms.svg)
 
+- Package requirements can be found in the `requirements.txt` file. 
+
+
+
